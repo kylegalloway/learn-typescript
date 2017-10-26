@@ -1,0 +1,4 @@
+.vscode
+src/*.js
+tsconfig.json
+src/*.map
