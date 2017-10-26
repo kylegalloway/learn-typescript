@@ -1,0 +1,8 @@
+<div class="jumbotron">
+    <ul class="list-group">
+        <li ng-show="playlist.favorites" class="list-group-item" ng-repeat="t in playlist.favorites">
+            {{t.title}}
+        </li>
+    </ul>
+    <button class="btn btn-block" ng-click="playlist.getFavourites()">Get Favorites Tracks</button>
+</div>
